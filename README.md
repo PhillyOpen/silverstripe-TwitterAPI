@@ -5,9 +5,9 @@ SilverStripe Module for Twitter API
 
 Setup your OAuth and Application Keys in the _config.php file.
 ## Usage
-  $t = new Twitter();  
-  $statuses = $t->getStatuses();
-  var_dump($statuses[0]);
+      $t = new Twitter();  
+      $statuses = $t->getStatuses();
+      var_dump($statuses[0]);
   //getStatuses() returns an array of objects containing the Tweet information (See sample dump below)
 ***
 
