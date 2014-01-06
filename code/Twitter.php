@@ -96,7 +96,7 @@ class Twitter {
 	
 	public function getStatuses(){
 		$connection = self::getConnectionWithAccessToken();
-		$var = $connection->get('statuses/user_timeline');
+		$var = $connection->get('statuses/user_timeline',array('exclude_replies' => 'true'));
 		return $var;
 	}
 	

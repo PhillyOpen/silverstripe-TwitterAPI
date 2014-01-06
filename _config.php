@@ -13,7 +13,7 @@
  **/
 /* Set app oAuth credentials */
 
-Twitter::setOAuthCredentials('consumer_key','consumer_secret');
+Twitter::setOAuthCredentials('73491087-jHZFezXfSx41PLlAACeoxGzrd6Cov9f77VMx2M1qe','anp9yooziXgKnKwbhxjlyem2wpy7cMNjljLKVRI3g');
 /**
  * Set the Application token and secret
  *
@@ -23,4 +23,4 @@ Twitter::setOAuthCredentials('consumer_key','consumer_secret');
  
  /* Set app credentials */
 
-Twitter::setApplicationCredentials('application_key','application_secret');
+Twitter::setApplicationCredentials('KYsN6968IR02QboWxRo9g','7xGiP7bDOGXQvrGf7CzQikyMsfLDIQiNf0JswIt1O44');
